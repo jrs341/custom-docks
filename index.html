@@ -4,31 +4,66 @@
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8" />
       <title> Calhoun's Custom Docks </title>
-      <style type="text/css">
-      </style>
+      <link rel="stylesheet" href="./css/style.css">
+     <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": [
+    "General Contractor",
+    "HomeAndConstructionBusiness",
+    "LocalBusiness",
+    "Organization",
+    "Thing"
+    ],
+    "name": "Calhoun's Custom Docks",
+    "openingHours": [
+      "Mo-Fr 09:00-17:00"
+      ],
+    "telephone": "(512) 523-5780",
+    "url": "https://www.calhounscustomdocks.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cedar Park",
+      "addressRegion": "TX",
+      "postalCode": "78613"
+    },
+     "geo": {
+      "@type": [
+      "GeoCoordinates",
+      "GeoCircle"
+      ],
+      "latitude": "30.505696",
+      "longitude": "-97.819793",
+      "geoRadius": "75000"
+    }
+   }
+  </script>
+
     </head>
     <body>
-      <header style = "display:flex; flex-direction: row; flex-wrap: row; align-content: center">
-        <!--<img src="./css/images/LogoMakr_22vJ75.png" style="width:50vw; height: 20vw">-->
-        <p style="color:#60b0f4; font-size: 7vw; height: 9vw">
+      <header>
+        <p id="headerPara">
           Calhoun's Custom Docks
         </p>
-        <!--<div style="margin-left: auto; align-self: center">-->
-          <button style="border-width: .1em; border-color: black;background-color: #60b0f4; font-size:3vw; border-radius: 1.5em; height: 6vw">
-            Email Calhoun
-          </button>
-          <button style="border-width: .1em; border-color: black;background-color: #60b0f4; font-size:3vw; border-radius: 1.5em; height: 6vw">
-            Call Calhoun
-          <!--</button>-->
+        <div id="headerDiv">
+          <!--<img src="./css/images/logo.png" style="width:9vw; height: 9vw">-->
+          <div id="buttonDiv">
+            <button id="emailButton">
+              <a href="mailto:calhoun@calhounscustomdocks.com?" target="_top">Email Calhoun</a>
+            </button>
+            <button>
+              <a href="tel:+254-290-1349">Call Calhoun</a>
+            </button>
+          </div>
         </div>
       </header>
-      <main style = "display:flex; flex-direction: column">
-      <!--<h1 style="position: absolute; top: 7vw; font-size:8vw; color: white">
-        Calhoun's Custom Dock Services
-      </h1>-->
+      <main>
       <img src="./css/images/dock3.jpg" style="width:100%; height: 50vw">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sagittis, est ut suscipit finibus, est libero sollicitudin sapien, vitae faucibus quam urna vel lacus. Ut ut ultricies arcu. Praesent posuere libero ut est commodo, venenatis auctor lorem feugiat. Suspendisse vitae tristique ex. Nullam finibus porttitor sapien, in commodo velit cursus et. Etiam vel iaculis mauris. Suspendisse ut hendrerit quam. Donec vitae dolor in augue pulvinar ullamcorper.
+        <p id="bodyPara">
+          Calhoun will work with you from initial design, engineered drawings, permits and final inspection. Calhoun is so confident in the quality and craftsmanship of his docks that there is a five year warranty on floating docks. This is, by far, above standard.
+        </p>
+        <p id="bodyPara">
+          Calhoun will also work with you to outfit your dock with; boat lifts, jet ski lifts, dock roofs, sundecks, sitting areas and also decking for your on land needs.
         </p>
         <div style="width: 100%; height: 55vw">
           <video width="100%" autoplay loop>
@@ -37,7 +72,7 @@
         </div>
       </main>
       <footer>
-        footer
+       
       </footer>
     </body>
   </html>
