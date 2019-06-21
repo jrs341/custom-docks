@@ -1,6 +1,6 @@
 a {
 	color: #edeae8;
-	font-size:3vw;
+	font-size:2.5vw;
 	text-decoration: none;
 
 }
@@ -19,19 +19,19 @@ button {
 }
 
 header {
-	background-color: #edeae8;
+	/*background-color: #edeae8;
 	display:flex;
 	flex-direction: row;
 	flex-wrap: wrap-reverse;
 	align-content: center;
 	overflow: hidden;
 	position: fixed;
-	top: 0;
+	top: 0;*/
 }
 
 main {
-	display:flex;
-	flex-direction: column;
+	/*display:flex;
+	flex-direction: column;*/
 	margin-top: 5em;
 }
 
@@ -52,14 +52,13 @@ main {
 #headerDiv {
 	width:100%;
 	display:flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
+	/*flex-direction: row;
+	flex-wrap: nowrap;*/
 	align-content: center;
 }
 
-#headerPara {
+#pageTitle {
 	margin: auto;
 	color:#60b0f4;
-	font-size: 8vw;
-	height: 9vw;
+	font-size: 5vw;
 }
