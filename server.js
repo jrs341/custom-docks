@@ -6,6 +6,7 @@ app.set('port', (process.env.PORT || 3000))
 app.use(express.static(__dirname + '/'))
 
 app.get('/index', function(request, response) {
+	response.setHeader('Cache-Control', 'public', 'max-age=36000')
   response.send('index')
 })
 
