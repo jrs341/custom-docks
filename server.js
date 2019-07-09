@@ -6,7 +6,7 @@ app.set('port', (process.env.PORT || 3000))
 app.use(express.static(__dirname + '/'))
 
 app.get('/index', function(request, response) {
-	response.writeHead(200{'Cache-Control': private})
+	response.writeHead(200,{'Cache-Control': private})
   response.send('index')
 })
 
