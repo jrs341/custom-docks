@@ -4,6 +4,12 @@ body {
 	height: 100%;
 	background-color: #f6fafe;
 }
+
+a {
+	color: #edeae8;
+	font-size:2.5vw;
+	text-decoration: none;
+}
 /*html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
@@ -12,11 +18,6 @@ audio,canvas,progress,video{display:inline-block}progress{vertical-align:baselin
 
 a{background-color:transparent}a:active,a:hover{outline-width:0}
 
-a {
-	color: #edeae8;
-	font-size:2.5vw;
-	text-decoration: none;
-}
 
 sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}
 
