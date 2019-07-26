@@ -1,3 +1,2 @@
-User-agent: * 
-Disallow: 
+User-agent: *  
 Sitemap: https://www.calhounscustomdocks.com/sitemap.xml
